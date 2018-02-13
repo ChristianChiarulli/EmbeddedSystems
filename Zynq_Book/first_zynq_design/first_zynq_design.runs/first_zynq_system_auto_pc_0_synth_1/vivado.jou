@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Jan 21 22:48:31 2018
+# Process ID: 19855
+# Current directory: /home/chris/Repos/EmbeddedSystems/Zynq_Book/first_zynq_design/first_zynq_design.runs/first_zynq_system_auto_pc_0_synth_1
+# Command line: vivado -log first_zynq_system_auto_pc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source first_zynq_system_auto_pc_0.tcl
+# Log file: /home/chris/Repos/EmbeddedSystems/Zynq_Book/first_zynq_design/first_zynq_design.runs/first_zynq_system_auto_pc_0_synth_1/first_zynq_system_auto_pc_0.vds
+# Journal file: /home/chris/Repos/EmbeddedSystems/Zynq_Book/first_zynq_design/first_zynq_design.runs/first_zynq_system_auto_pc_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source first_zynq_system_auto_pc_0.tcl -notrace

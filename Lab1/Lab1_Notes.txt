@@ -1,0 +1,65 @@
+Still 
+
+#include same stuff
+
+Change the LED input variable from LED to led_data and initialize a value for
+the button as well called btn_data
+
+#define
+
+Device ID's are set to the XPAR_AXI_GPIO_x_DEVICE_ID
+
+where x = 0 for the buttons and x = 1 for the LED's
+
+everything happens on channel one
+
+Create two GPIO Device driver instances called LEDInst and BTNInst
+
+The main function will still call the function that produces the values on the
+LED's
+
+Get rid of DELAY varibale and delay in general in favor of an indefinite delay
+if the button is still registered as pressed
+
+create a temp variable to hold the data to be passed to the LED when the button
+is let go
+
+initalize 4 variables for the buttons
+
+-------- SIDE NOTE ---------
+
+When the buttons are pressed they 
+
+they are assigned binary numbers 1, 2, 4, 8 to butons 0, 1, 2, 3 respectively
+
+----------------------------
+
+Initialize the GPIO for the LED's
+Initialize the GPIO for the Buttons
+
+Set the data direction for the LED's as outputs
+Set the data direction for the buttons as inputs
+
+Keep the polling loop
+
+use XGpio_DiscreteRead() to read in the button value
+
+add 4 if statements which check if the button value is equal to that button
+
+assign the temp variable to the specified value if the expected button is
+pressed
+
+add 2 if btn1 is pressed
+add 4 if btn2 is pressed
+add 8 if btn3 is pressed
+
+if btn 1 is pressed 0 the count
+
+After thes if statements is another if statement that checks that the value for
+btn_value is not 0x8, 0x4, 0x2 the update led_data with temp
+
+this ensures led_data will not update unless the button is let go
+
+
+The else statement will check if the button is let go if it is break the
+infinite loop 

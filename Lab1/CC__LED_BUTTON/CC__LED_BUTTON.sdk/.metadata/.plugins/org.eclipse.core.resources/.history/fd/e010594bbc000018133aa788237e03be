@@ -1,0 +1,148 @@
+/*
+ * LED_test.c
+ *
+ *  Created on: 	13 June 2013
+ *      Author: 	Ross Elliot
+ *     Version:		1.2
+ */
+
+/********************************************************************************************
+* VERSION HISTORY
+********************************************************************************************
+* 	v1.2 - 13 February 2015
+* 		Modified for Zybo Development Board ~ DN
+*
+* 	v1.1 - 27 January 2014
+* 		GPIO_DEVICE_ID definition updated to reflect new naming conventions in Vivado 2013.3
+*		onwards.
+*
+*	v1.0 - 13 June 2013
+*		First version created.
+*******************************************************************************************/
+
+/********************************************************************************************
+ * This file contains an example of using the GPIO driver to provide communication between
+ * the Zynq Processing System (PS) and the AXI GPIO block implemented in the Zynq Programmable
+ * Logic (PL). The AXI GPIO is connected to the LEDs on the Zybo.
+ *
+ * The provided code demonstrates how to use the GPIO driver to write to the memory mapped AXI
+ * GPIO block, which in turn controls the LEDs.
+ ********************************************************************************************/
+
+/* Include Files */
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xstatus.h"
+#include "xil_printf.h"
+
+/* Definitions */
+//#define GPIO_DEVICE_ID  XPAR_AXI_GPIO_0_DEVICE_ID	/* GPIO device that LEDs are connected to */
+#define LED 0x9										/* Initial LED value - X00X */
+#define LED_DELAY 10000000							/* Software delay length */
+//#define LED_CHANNEL 1								/* GPIO port for LEDs */
+#define printf xil_printf							/* smaller, optimized printf */
+
+#define BTNS_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID
+#define LEDS_DEVICE_ID XPAR_AXI_GPIO_1_DEVICE_ID
+
+//XGpio Gpio;											/* GPIO Device driver instance */
+
+static int led_data;
+static int btn_value;
+
+XGpio LEDInst, BTNInst;
+
+int LEDOutputExample(void)
+{
+
+
+
+	volatile int Delay;
+	int status;
+	int check = 0x0;
+	int temp = 0x0;
+	int b0 = 1;
+	int	b1 = 2;
+	int	b2 = 4;
+	int b3 = 8;
+
+	//int led = LED; /* Hold current LED value. Initialize to LED definition */
+
+	//----------------------------------------------------
+		  // INITIALIZE THE PERIPHERALS & SET DIRECTIONS OF GPIO
+		  //----------------------------------------------------
+		  // Initialize LEDs
+		  status = XGpio_Initialize(&LEDInst, LEDS_DEVICE_ID);
+		  if(status != XST_SUCCESS) return XST_FAILURE;
+		  // Initialize Push Buttons
+		  status = XGpio_Initialize(&BTNInst, BTNS_DEVICE_ID);
+		  if(status != XST_SUCCESS) return XST_FAILURE;
+		  // Set LEDs direction to outputs
+		  XGpio_SetDataDirection(&LEDInst, 1, 0x00);
+		  // Set all buttons direction to inputs
+		  XGpio_SetDataDirection(&BTNInst, 1, 0xFF);
+
+		/* GPIO driver initialization */
+		//Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+		//if (Status != XST_SUCCESS) {
+		//	return XST_FAILURE;
+		//}
+
+		/*Set the direction for the LEDs to output. */
+		//XGpio_SetDataDirection(&LEDInst, LED_CHANNEL, 0x0);
+	while(1){
+			/* Read input from the buttons. */
+			btn_value = XGpio_DiscreteRead(&BTNInst, 1);
+
+			if ((b0 == btn_value) && (check =! 0x1)){
+				temp = 0x0;
+				check = 0x1;
+			}
+
+			if (b1 == btn_value){
+				temp = led_data + 0x2;
+			}
+
+			if (b2 == btn_value){
+				temp = led_data + 0x4;
+			}
+
+			if ((b3 == btn_value) && (check =! 0x1)){
+				temp = led_data + 0x8;
+				check = 0x1;
+			}
+
+
+			/* Wait a small amount of time so that the LED blinking is visible. */
+			for (Delay = 0; Delay < LED_DELAY; Delay++){
+			led_data = temp;
+			}
+
+			/* Write output to the LEDs. */
+			XGpio_DiscreteWrite(&LEDInst, 1, led_data);
+
+			/* Flip LEDs. */
+			//led_data = ~led_data;
+
+			/* Wait a small amount of time so that the LED blinking is visible. */
+			//for (Delay = 0; Delay < LED_DELAY; Delay++);
+
+	}
+		return XST_SUCCESS; /* Should be unreachable */
+}
+
+/* Main function. */
+int main(void){
+
+
+	int Status;
+
+	/* Execute the LED output. */
+	Status = LEDOutputExample();
+	if (Status != XST_SUCCESS) {
+		xil_printf("GPIO output to the LEDs failed!\r\n");
+	}
+
+	return 0;
+}
+

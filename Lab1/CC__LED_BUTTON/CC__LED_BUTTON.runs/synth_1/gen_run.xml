@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1516750006">
+  <File Type="RDS-UTIL-PB" Name="zynq_LED_system_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="zynq_LED_system_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-RDS" Name="zynq_LED_system_wrapper.vds"/>
+  <File Type="RDS-DCP" Name="zynq_LED_system_wrapper.dcp"/>
+  <File Type="PA-TCL" Name="zynq_LED_system_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="zynq_LED_system_wrapper_reports.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/zynq_LED_system/zynq_LED_system.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/zynq_LED_system/hdl/zynq_LED_system_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="zynq_LED_system_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="zynq_LED_system_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zynq_LED_system_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zynq_LED_system_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zynq_LED_system_axi_gpio_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zynq_LED_system_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zynq_LED_system_auto_pc_0"/>
+</GenRun>

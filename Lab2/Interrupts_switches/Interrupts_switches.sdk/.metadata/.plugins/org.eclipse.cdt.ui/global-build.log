@@ -1,0 +1,2267 @@
+14:54:21 **** Build of project CC_Interrupts_Switches_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_5/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_5/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling tmrctr
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+
+**** Build of configuration Debug for project CC_Interrupts_Switches ****
+
+Nothing to build for project CC_Interrupts_Switches
+14:55:18 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:126:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28452	   2788	  22680	  53920	   d2a0	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+14:55:20 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:00:13 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:128:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28452	   2788	  22696	  53936	   d2b0	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:22:05 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:30:33 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:133:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28540	   2788	  22696	  54024	   d308	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:31:29 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:32:17 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:33:09 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:39:09 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:133:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28568	   2788	  22696	  54052	   d324	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:40:14 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:133:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28596	   2788	  22696	  54080	   d340	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:40:32 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:46:09 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:145:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28732	   2788	  22696	  54216	   d3c8	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:46:38 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:49:57 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28760	   2788	  22696	  54244	   d3e4	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:56:36 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:156:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28736	   2788	  22696	  54220	   d3cc	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:57:30 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:162:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28800	   2788	  22696	  54284	   d40c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:57:59 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:01:44 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:162:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28764	   2788	  22696	  54248	   d3e8	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:02:34 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:05:58 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:146:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28732	   2788	  22696	  54216	   d3c8	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:06:32 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:146:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28760	   2788	  22696	  54244	   d3e4	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:06:54 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:10:13 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:146:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28760	   2788	  22696	  54244	   d3e4	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:10:49 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:12:55 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:146:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28788	   2788	  22696	  54272	   d400	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:13:20 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:17:05 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28816	   2788	  22696	  54300	   d41c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:17:33 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:18:59 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28816	   2788	  22696	  54300	   d41c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:19:21 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:22:11 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/interrupt_counter_tut_2D.c:44:12: warning: 'sws_value' defined but not used [-Wunused-variable]
+ static int sws_value;
+            ^~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28816	   2788	  22696	  54300	   d41c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:23:13 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28816	   2788	  22696	  54300	   d41c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:23:29 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:23:54 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28816	   2788	  22696	  54300	   d41c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:24:42 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:25:24 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28804	   2788	  22696	  54288	   d410	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:25:41 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:26:10 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28808	   2788	  22696	  54292	   d414	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:26:27 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:35:56 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28752	   2788	  22696	  54236	   d3dc	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:36:24 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:37:47 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28808	   2788	  22696	  54292	   d414	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:37:56 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28656	   2788	  22696	  54140	   d37c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:38:17 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:38:56 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28812	   2788	  22696	  54296	   d418	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:39:11 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28812	   2788	  22696	  54296	   d418	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:39:27 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:41:35 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28836	   2788	  22696	  54320	   d430	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:42:09 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:44:16 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28832	   2788	  22696	  54316	   d42c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:46:28 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:48:59 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:147:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28832	   2788	  22696	  54316	   d42c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+18:55:01 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:149:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28832	   2788	  22696	  54316	   d42c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+13:21:54 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:155:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28948	   2788	  22696	  54432	   d4a0	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+13:37:30 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'BTN_Intr_Handler':
+../src/interrupt_counter_tut_2D.c:98:5: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]
+  if ((XGpio_DiscreteRead(&SWSInst, 1) == 0x8 && XGpio_DiscreteRead(&BTNInst, 1) == 0x2) || (XGpio_DiscreteRead(&SWSInst, 1) == 0x8 && XGpio_DiscreteRead(&BTNInst, 1) == 0x4))
+     ^
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:170:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29264	   2788	  22696	  54748	   d5dc	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+13:47:06 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:170:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29264	   2788	  22696	  54748	   d5dc	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+13:48:16 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:50:40 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:170:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29292	   2788	  22696	  54776	   d5f8	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+13:50:56 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:52:41 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:170:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29268	   2788	  22696	  54752	   d5e0	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+13:53:47 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:170:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29296	   2788	  22696	  54780	   d5fc	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+13:54:12 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:56:07 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:167:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29268	   2788	  22696	  54752	   d5e0	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+13:56:31 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:59:15 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:176:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29380	   2788	  22696	  54864	   d650	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+13:59:33 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:02:13 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:176:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29236	   2788	  22696	  54720	   d5c0	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+14:02:50 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:05:33 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:176:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29036	   2788	  22696	  54520	   d4f8	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+14:05:52 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:10:21 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:179:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29060	   2788	  22696	  54544	   d510	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+14:10:41 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:12:52 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29008	   2788	  22696	  54492	   d4dc	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+14:13:19 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:14:40 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29008	   2788	  22696	  54492	   d4dc	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+14:15:43 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29036	   2788	  22696	  54520	   d4f8	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+14:16:04 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:22:27 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29036	   2788	  22696	  54520	   d4f8	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+14:22:48 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:26:44 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:175:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28980	   2788	  22696	  54464	   d4c0	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+14:27:09 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:33:57 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29024	   2788	  22696	  54508	   d4ec	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+14:34:25 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:36:57 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:169:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+15:26:19 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:31:09 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:169:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+15:32:13 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:33:33 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:170:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+15:33:51 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:34:28 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:170:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+15:35:25 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+16:38:18 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:170:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+16:38:48 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+16:48:09 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:170:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+16:48:36 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+16:53:49 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:171:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+16:56:28 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:05:33 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:172:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:05:53 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:08:07 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:09:12 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:172:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:09:33 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:12:15 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:172:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:51:50 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:172:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+../src/interrupt_counter_tut_2D.c:39:20: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define TMR_LOAD   0x1f0000000
+                    ^
+../src/interrupt_counter_tut_2D.c:173:37: note: in expansion of macro 'TMR_LOAD'
+   XTmrCtr_SetResetValue(&TMRInst,0, TMR_LOAD);
+                                     ^~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:52:07 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:55:24 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:56:50 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:173:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29328	   2788	  22696	  54812	   d61c	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+17:57:05 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+22:34:26 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29260	   2788	  22696	  54744	   d5d8	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+22:35:33 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29220	   2788	  22696	  54704	   d5b0	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+22:36:50 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+20:06:06 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:15:43 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:25:13 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29208	   2788	  22696	  54692	   d5a4	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+11:25:54 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29208	   2788	  22696	  54692	   d5a4	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+11:26:14 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:43:36 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29208	   2788	  22696	  54692	   d5a4	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 
+11:43:49 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:04:58 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/interrupt_counter_tut_2D.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/interrupt_counter_tut_2D.c:24:0:
+../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/interrupt_counter_tut_2D.c
+ 
+Building target: CC_Interrupts_Switches.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_Interrupts_Switches.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29220	   2788	  22696	  54704	   d5b0	CC_Interrupts_Switches.elf
+Finished building: CC_Interrupts_Switches.elf.size
+ 

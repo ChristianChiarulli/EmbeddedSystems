@@ -1,0 +1,1937 @@
+18:37:12 **** Build of project CC_LED_BUTTON_SDK_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_5/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_5/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+
+**** Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+
+Nothing to build for project CC_LED_BUTTON_SDK
+18:38:09 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+Finished building: ../src/LED_test_tut_1C.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_test_tut_1C.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23380	   1188	  22600	  47168	   b840	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+18:38:10 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:38:50 **** Clean-only build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make clean 
+rm -rf  ./src/LED_test_tut_1C.o  ./src/LED_test_tut_1C.d  CC_LED_BUTTON_SDK.elf.size  CC_LED_BUTTON_SDK.elf
+ 
+18:38:50 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23380	   1188	  22600	  47168	   b840	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+21:10:30 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:61:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/LED_BUTTON.c: In function 'main':
+../src/LED_BUTTON.c:100:4: error: 'status' undeclared (first use in this function)
+    status = XGpio_Initialize(&LEDInst, LEDS_DEVICE_ID);
+    ^~~~~~
+../src/LED_BUTTON.c:100:4: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:21: recipe for target 'src/LED_BUTTON.o' failed
+make: *** [src/LED_BUTTON.o] Error 1
+21:11:19 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:61:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/LED_BUTTON.c: In function 'main':
+../src/LED_BUTTON.c:111:2: error: 'Status' undeclared (first use in this function)
+src/subdir.mk:21: recipe for target 'src/LED_BUTTON.o' failed
+  Status = LEDOutputExample();
+  ^~~~~~
+../src/LED_BUTTON.c:111:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/LED_BUTTON.o] Error 1
+21:12:57 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23508	   1188	  22616	  47312	   b8d0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+21:16:08 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:68:5: error: 'status' undeclared (first use in this function)
+     status = XGpio_Initialize(&LEDInst, LEDS_DEVICE_ID);
+     ^~~~~~
+../src/LED_BUTTON.c:68:5: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:21: recipe for target 'src/LED_BUTTON.o' failed
+make: *** [src/LED_BUTTON.o] Error 1
+21:16:27 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23636	   1188	  22616	  47440	   b950	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+21:18:04 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23508	   1188	  22616	  47312	   b8d0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+21:20:03 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23572	   1188	  22616	  47376	   b910	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+21:23:58 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c:51:12: warning: 'btn_value' defined but not used [-Wunused-variable]
+ static int btn_value;
+            ^~~~~~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23444	   1188	  22616	  47248	   b890	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+21:31:24 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+21:32:12 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:60:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23508	   1188	  22616	  47312	   b8d0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+21:32:59 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+22:12:52 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+22:16:07 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:66:6: warning: unused variable 'b3' [-Wunused-variable]
+  int b3 = 8;
+      ^~
+../src/LED_BUTTON.c:65:6: warning: unused variable 'b2' [-Wunused-variable]
+  int b2 = 4;
+      ^~
+../src/LED_BUTTON.c:64:6: warning: unused variable 'b1' [-Wunused-variable]
+  int b1 = 2;
+      ^~
+../src/LED_BUTTON.c:60:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23508	   1188	  22616	  47312	   b8d0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+22:16:37 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+22:17:51 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:66:6: warning: unused variable 'b3' [-Wunused-variable]
+  int b3 = 8;
+      ^~
+../src/LED_BUTTON.c:65:6: warning: unused variable 'b2' [-Wunused-variable]
+  int b2 = 4;
+      ^~
+../src/LED_BUTTON.c:60:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23572	   1188	  22616	  47376	   b910	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+22:18:12 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+22:23:58 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:60:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23636	   1188	  22616	  47440	   b950	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+22:29:55 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+22:45:14 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:97:5: error: 'temp' undeclared (first use in this function)
+src/subdir.mk:21: recipe for target 'src/LED_BUTTON.o' failed
+     temp = 0x0;
+     ^~~~
+../src/LED_BUTTON.c:97:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/LED_BUTTON.o] Error 1
+22:45:57 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23700	   1188	  22616	  47504	   b990	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+22:46:21 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:04:35 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:97:33: error: lvalue required as left operand of assignment
+    if (b0 == btn_value && check =! 0x1){
+                                 ^
+src/subdir.mk:21: recipe for target 'src/LED_BUTTON.o' failed
+make: *** [src/LED_BUTTON.o] Error 1
+23:04:43 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:97:11: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+    if (b0 == btn_value & check =! 0x1){
+        ~~~^~~~~~~~~~~~
+../src/LED_BUTTON.c:97:32: error: lvalue required as left operand of assignment
+    if (b0 == btn_value & check =! 0x1){
+                                ^
+src/subdir.mk:21: recipe for target 'src/LED_BUTTON.o' failed
+make: *** [src/LED_BUTTON.o] Error 1
+23:05:13 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23764	   1188	  22616	  47568	   b9d0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+23:05:59 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:06:29 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23764	   1188	  22616	  47568	   b9d0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+23:06:50 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:07:36 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23764	   1188	  22616	  47568	   b9d0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+23:07:54 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:08:55 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:62:6: warning: unused variable 'check' [-Wunused-variable]
+  int check = 0x0;
+      ^~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23700	   1188	  22616	  47504	   b990	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+23:28:53 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:32:22 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23708	   1188	  22616	  47512	   b998	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+23:32:42 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:36:21 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23700	   1188	  22616	  47504	   b990	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+23:37:24 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:48:36 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:67:6: warning: variable 'flag' set but not used [-Wunused-but-set-variable]
+  int flag = 0x0;
+      ^~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23764	   1188	  22616	  47568	   b9d0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+23:49:44 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:67:6: warning: variable 'flag' set but not used [-Wunused-but-set-variable]
+  int flag = 0x0;
+      ^~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23764	   1188	  22616	  47568	   b9d0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+23:50:01 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:50:21 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:67:6: warning: variable 'flag' set but not used [-Wunused-but-set-variable]
+  int flag = 0x0;
+      ^~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23764	   1188	  22616	  47568	   b9d0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+23:51:00 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:53:11 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:67:6: warning: variable 'flag' set but not used [-Wunused-but-set-variable]
+  int flag = 0x0;
+      ^~~~
+../src/LED_BUTTON.c:60:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+../src/LED_BUTTON.c: At top level:
+../src/LED_BUTTON.c:136:3: error: expected identifier or '(' before 'return'
+   return XST_SUCCESS; /* Should be unreachable */
+   ^~~~~~
+../src/LED_BUTTON.c:137:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/LED_BUTTON.o] Error 1
+src/subdir.mk:21: recipe for target 'src/LED_BUTTON.o' failed
+23:53:22 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:67:6: warning: variable 'flag' set but not used [-Wunused-but-set-variable]
+  int flag = 0x0;
+      ^~~~
+../src/LED_BUTTON.c:60:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23764	   1188	  22616	  47568	   b9d0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+23:53:52 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:56:21 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:01:10 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:67:6: warning: unused variable 'flag' [-Wunused-variable]
+  int flag = 0x0;
+      ^~~~
+../src/LED_BUTTON.c:60:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+00:10:03 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:125:29: error: 'btn' undeclared (first use in this function)
+    if((btn_value != 0x8) & (btn != 0x4) & (btn != 0x2)){
+                             ^~~
+../src/LED_BUTTON.c:125:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/LED_BUTTON.c:67:6: warning: unused variable 'flag' [-Wunused-variable]
+  int flag = 0x0;
+      ^~~~
+../src/LED_BUTTON.c:60:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+make: *** [src/LED_BUTTON.o] Error 1
+src/subdir.mk:21: recipe for target 'src/LED_BUTTON.o' failed
+00:10:33 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:67:6: warning: unused variable 'flag' [-Wunused-variable]
+  int flag = 0x0;
+      ^~~~
+../src/LED_BUTTON.c:60:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+00:10:55 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:46:11 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+14:46:24 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+18:49:50 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+18:52:42 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+18:53:13 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+18:54:40 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:55:42 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+18:56:05 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+19:02:29 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+19:02:37 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+19:14:25 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+19:14:41 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+19:18:41 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+19:19:15 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+19:19:40 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+19:19:54 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+19:20:39 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+19:20:53 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+19:21:11 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+19:21:30 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+19:24:04 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+19:36:59 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23828	   1188	  22616	  47632	   ba10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:11:11 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:15:13 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:22:28 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23892	   1188	  22616	  47696	   ba50	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:23:32 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23892	   1188	  22616	  47696	   ba50	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:24:34 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:109:6: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+      for (Delay = 0; Delay < LED_DELAY; Delay++);
+      ^~~
+../src/LED_BUTTON.c:110:9: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+         led_data = led_data +0x1;
+         ^~~~~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23892	   1188	  22616	  47696	   ba50	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:24:50 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:25:22 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:26:20 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:27:18 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:28:23 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:29:32 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:109:6: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+      for (Delay = 0; Delay < LED_DELAY; Delay++);
+      ^~~
+../src/LED_BUTTON.c:110:9: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+         led_data = led_data +0x1;
+         ^~~~~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:29:45 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:30:33 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:31:41 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:109:6: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+      for (Delay = 0; Delay < LED_DELAY; Delay++);
+      ^~~
+../src/LED_BUTTON.c:110:9: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+         led_data = led_data +0x1;
+         ^~~~~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:32:26 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:33:35 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c: In function 'LEDOutputExample':
+../src/LED_BUTTON.c:109:6: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+      for (Delay = 0; Delay < LED_DELAY; Delay++);
+      ^~~
+../src/LED_BUTTON.c:110:9: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+         led_data = led_data +0x1;
+         ^~~~~~~~
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:33:56 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:35:39 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:35:59 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:37:54 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:38:08 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:38:43 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:38:58 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:40:00 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:40:18 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:41:39 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:41:56 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:44:43 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:45:14 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:47:04 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+../src/LED_BUTTON.c:128:3: error: expected identifier or '(' before 'return'
+   return XST_SUCCESS; /* Should be unreachable */
+src/subdir.mk:21: recipe for target 'src/LED_BUTTON.o' failed
+   ^~~~~~
+../src/LED_BUTTON.c:129:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/LED_BUTTON.o] Error 1
+11:47:31 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23892	   1188	  22616	  47696	   ba50	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:47:45 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:50:11 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23892	   1188	  22616	  47696	   ba50	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:50:37 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:51:44 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24020	   1188	  22616	  47824	   bad0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:52:03 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:52:20 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:54:31 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:54:47 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:55:58 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:56:16 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:57:23 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:57:47 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24084	   1188	  22616	  47888	   bb10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+11:58:04 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:01:08 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+12:01:26 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:01:49 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+12:02:08 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:04:51 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23956	   1188	  22616	  47760	   ba90	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+12:05:07 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:07:14 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24020	   1188	  22616	  47824	   bad0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+12:07:32 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:08:16 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24020	   1188	  22616	  47824	   bad0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+12:08:38 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:11:40 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24020	   1188	  22616	  47824	   bad0	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+12:11:57 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:12:54 **** Auto Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_BUTTON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON.d" -MT"src/LED_BUTTON.o" -o "src/LED_BUTTON.o" "../src/LED_BUTTON.c"
+Finished building: ../src/LED_BUTTON.c
+ 
+Building target: CC_LED_BUTTON_SDK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_LED_BUTTON_SDK_bsp/ps7_cortexa9_0/lib -o "CC_LED_BUTTON_SDK.elf"  ./src/LED_BUTTON.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CC_LED_BUTTON_SDK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CC_LED_BUTTON_SDK.elf  |tee "CC_LED_BUTTON_SDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24084	   1188	  22616	  47888	   bb10	CC_LED_BUTTON_SDK.elf
+Finished building: CC_LED_BUTTON_SDK.elf.size
+ 
+12:13:08 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.

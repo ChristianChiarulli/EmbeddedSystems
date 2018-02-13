@@ -1,0 +1,8 @@
+12:13:08 **** Incremental Build of configuration Debug for project CC_LED_BUTTON_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+
+12:13:09 Build Finished (took 310ms)
+

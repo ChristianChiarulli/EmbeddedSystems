@@ -1,0 +1,145 @@
+/*
+ * LED_BUTTON.c
+ *
+ *  Created on: 	20 January 2018
+ *      Author: 	Christian Chiarulli
+ *     Version:		1.0
+ */
+
+/********************************************************************************************
+* VERSION HISTORY
+********************************************************************************************
+* 	v1.2 - 13 February 2015
+* 		Modified for Zybo Development Board ~ DN
+*
+* 	v1.1 - 27 January 2014
+* 		GPIO_DEVICE_ID definition updated to reflect new naming conventions in Vivado 2013.3
+*		onwards.
+*
+*	v1.0 - 13 June 2013
+*		First version created.
+*******************************************************************************************/
+
+/********************************************************************************************
+ * This file contains an example of using the GPIO driver to provide communication between
+ * the Zynq Processing System (PS) and the AXI GPIO block implemented in the Zynq Programmable
+ * Logic (PL). The AXI GPIO is connected to the LEDs on the Zybo.
+ *
+ * The provided code demonstrates how to use the GPIO driver to write to the memory mapped AXI
+ * GPIO block, which in turn controls the LEDs.
+ ********************************************************************************************/
+
+/* Include Files */
+#include "xparameters.h" // variables such as XPAR_AXI_GPIO_1_DEVICE_ID can be found here
+#include "xgpio.h"		 // adds GPIO funtions
+#include "xstatus.h"	 // adds status functionality
+#include "xil_printf.h"	 // just adds a better print
+
+
+/* Definitions */
+#define CHANNEL 1									/* GPIO port for LEDs and buttons */
+#define printf xil_printf							/* smaller, optimized printf */
+#define LED_DELAY 1000000
+#define BTNS_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID	// GPIO device buttons are connected to
+#define LEDS_DEVICE_ID XPAR_AXI_GPIO_1_DEVICE_ID	// GPIO device LED's are connected to
+
+static int led_data;								// Hold current LED value. Initialize to led_data definition
+static int btn_value;								// Hold current value for buttons
+
+XGpio LEDInst, BTNInst;								// GPIO Device driver instances
+
+int LEDOutputExample(void)
+{
+	int status;										// should equal XST_SUCCESS if initialization went smoothly
+	int count = 0x0;									// holds temporary LED values
+	int b0 = 0x1;									// button0
+	int	b1 = 0x2;									// button1
+	int	b2 = 0x4;									// button2
+	int b3 = 0x8;									// button3
+	volatile int Delay;
+	//----------------------------------------------------
+		  // INITIALIZE THE PERIPHERALS & SET DIRECTIONS OF GPIO
+		  //----------------------------------------------------
+		  // Initialize LEDs
+		  status = XGpio_Initialize(&LEDInst, LEDS_DEVICE_ID);
+		  if(status != XST_SUCCESS) return XST_FAILURE;
+		  // Initialize Push Buttons
+		  status = XGpio_Initialize(&BTNInst, BTNS_DEVICE_ID);
+		  if(status != XST_SUCCESS) return XST_FAILURE;
+		  // Set LEDs direction to outputs
+		  XGpio_SetDataDirection(&LEDInst, CHANNEL, 0x00);
+		  // Set all buttons direction to inputs
+		  XGpio_SetDataDirection(&BTNInst, CHANNEL, 0xFF);
+
+
+	while(1){
+			/* Read input from the buttons. */
+			btn_value = XGpio_DiscreteRead(&BTNInst, CHANNEL);
+
+			// check what button is pressed and assign the appropriate value to temp
+			if (b0 == btn_value){
+				count = 0x0;
+			}
+
+			if (b1 == btn_value){
+				count = led_data + 0x2;
+			}
+
+			if (b2 == btn_value){
+				count = led_data + 0x4;
+			}
+
+			if (b3 == btn_value){
+				count = led_data + 0x8;
+			}
+
+			//for (Delay = 0; Delay < LED_DELAY; Delay++);
+			//led_data = led_data +0x1;
+			// update only when button is let go
+			if((btn_value != 0x8) & (btn_value != 0x4) & (btn_value != 0x2) & (btn_value != 0x1)){
+
+			led_data = count; // load the value to the LED's
+			/* Write output to the LEDs. */
+			XGpio_DiscreteWrite(&LEDInst, CHANNEL, led_data);
+			//for (Delay = 0; Delay < LED_DELAY; Delay++);
+			//led_data = led_data +0x1;
+			//XGpio_DiscreteWrite(&LEDInst, CHANNEL, led_data);
+			}
+
+			else{
+				while(1){
+					// stay in the loop unless the button is let go, this stops the program from picking up continuous presses
+					for (Delay = 0; Delay < LED_DELAY; Delay++);
+					led_data = led_data +0x1;
+					XGpio_DiscreteWrite(&LEDInst, CHANNEL, led_data);
+
+
+					//if (XGpio_DiscreteRead(&BTNInst, CHANNEL) == 0x0){
+						//for (Delay = 0; Delay < LED_DELAY; Delay++);
+						//led_data = led_data +0x1;
+						//XGpio_DiscreteWrite(&LEDInst, CHANNEL, led_data);
+
+						//break;
+					//}
+				}
+			}
+
+	}
+		return XST_SUCCESS; /* Should be unreachable */
+}
+
+/* Main function. */
+int main(void){
+
+
+	int Status;
+
+	/* Execute the LED output. */
+	Status = LEDOutputExample();
+	if (Status != XST_SUCCESS) {
+		xil_printf("GPIO output to the LEDs failed!\r\n");
+	}
+
+	return 0;
+}
+

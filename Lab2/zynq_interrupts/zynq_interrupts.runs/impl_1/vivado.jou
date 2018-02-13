@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Feb  2 19:41:37 2018
+# Process ID: 11145
+# Current directory: /home/chris/Repos/EmbeddedSystems/Lab2/zynq_interrupts/zynq_interrupts.runs/impl_1
+# Command line: vivado -log zynq_interrupt_system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source zynq_interrupt_system_wrapper.tcl -notrace
+# Log file: /home/chris/Repos/EmbeddedSystems/Lab2/zynq_interrupts/zynq_interrupts.runs/impl_1/zynq_interrupt_system_wrapper.vdi
+# Journal file: /home/chris/Repos/EmbeddedSystems/Lab2/zynq_interrupts/zynq_interrupts.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source zynq_interrupt_system_wrapper.tcl -notrace
