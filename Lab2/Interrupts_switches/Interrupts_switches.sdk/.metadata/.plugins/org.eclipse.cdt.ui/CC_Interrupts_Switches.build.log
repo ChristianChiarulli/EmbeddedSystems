@@ -1,31 +1,8 @@
-12:04:58 **** Auto Build of configuration Debug for project CC_Interrupts_Switches ****
+12:01:43 **** Incremental Build of configuration Debug for project CC_Interrupts_Switches ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
-Building file: ../src/interrupt_counter_tut_2D.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.o" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
-../src/interrupt_counter_tut_2D.c: In function 'main':
-../src/interrupt_counter_tut_2D.c:177:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
-   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
-                                ^~~~~~~~~~~~~~~~
-In file included from ../src/interrupt_counter_tut_2D.c:24:0:
-../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/include/xtmrctr.h:306:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
- void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
-      ^~~~~~~~~~~~~~~~~~
-Finished building: ../src/interrupt_counter_tut_2D.c
- 
-Building target: CC_Interrupts_Switches.elf
-Invoking: ARM v7 gcc linker
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CC_Interrupts_Switches_bsp/ps7_cortexa9_0/lib -o "CC_Interrupts_Switches.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: CC_Interrupts_Switches.elf
- 
-Invoking: ARM v7 Print Size
-arm-none-eabi-size CC_Interrupts_Switches.elf  |tee "CC_Interrupts_Switches.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  29220	   2788	  22696	  54704	   d5b0	CC_Interrupts_Switches.elf
-Finished building: CC_Interrupts_Switches.elf.size
- 
+make: Nothing to be done for 'main-build'.
 
-12:04:58 Build Finished (took 416ms)
+12:01:43 Build Finished (took 310ms)
 

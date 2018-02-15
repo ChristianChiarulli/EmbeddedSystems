@@ -134,7 +134,7 @@ void TMR_Intr_Handler(void *data)
 			XTmrCtr_Stop(&TMRInst,0);
 			tmr_count = 0;
 			led_data++;
-			xil_printf("%d  ", dynamic_count);
+			xil_printf("%d", check);
 			XGpio_DiscreteWrite(&LEDInst, 1, led_data);
 			XTmrCtr_Reset(&TMRInst,0);
 			XTmrCtr_Start(&TMRInst,0);

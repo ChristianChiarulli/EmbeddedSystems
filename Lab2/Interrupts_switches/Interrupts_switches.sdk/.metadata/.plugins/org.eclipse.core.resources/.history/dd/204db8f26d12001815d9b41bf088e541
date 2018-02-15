@@ -79,7 +79,7 @@ void BTN_Intr_Handler(void *InstancePtr)
 
 	btn_value = XGpio_DiscreteRead(&BTNInst, 1);
 	sws_value = XGpio_DiscreteRead(&SWSInst, 1);
-
+	xil_printf("%d", check);
 	// changed this to interact appropriately with switches
 	if ((sws_value != 0x1 || btn_value == 0x1 || btn_value == 0x8) && (btn_value != 0x2 || btn_value != 0x4)){
 		if (sws_value != 0x2 && sws_value != 0x4 && sws_value != 0x8){
@@ -134,7 +134,6 @@ void TMR_Intr_Handler(void *data)
 			XTmrCtr_Stop(&TMRInst,0);
 			tmr_count = 0;
 			led_data++;
-			xil_printf("%d  ", dynamic_count);
 			XGpio_DiscreteWrite(&LEDInst, 1, led_data);
 			XTmrCtr_Reset(&TMRInst,0);
 			XTmrCtr_Start(&TMRInst,0);

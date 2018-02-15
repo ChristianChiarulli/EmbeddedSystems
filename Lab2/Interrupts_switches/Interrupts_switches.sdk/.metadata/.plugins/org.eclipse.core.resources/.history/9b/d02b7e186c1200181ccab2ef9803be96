@@ -49,7 +49,6 @@ static int led_data;
 static int btn_value;
 static int sws_value;
 static int tmr_count;
-static int check = 6;
 static volatile int dynamic_count = 3000000;
 
 //----------------------------------------------------
@@ -69,7 +68,6 @@ static int IntcInitFunction(u16 DeviceId, XTmrCtr *TmrInstancePtr, XGpio *GpioIn
 
 void BTN_Intr_Handler(void *InstancePtr)
 {
-
 	// Disable GPIO interrupts
 	XGpio_InterruptDisable(&BTNInst, BTN_INT);
 	// Ignore additional button presses
@@ -134,7 +132,6 @@ void TMR_Intr_Handler(void *data)
 			XTmrCtr_Stop(&TMRInst,0);
 			tmr_count = 0;
 			led_data++;
-			xil_printf("%d  ", dynamic_count);
 			XGpio_DiscreteWrite(&LEDInst, 1, led_data);
 			XTmrCtr_Reset(&TMRInst,0);
 			XTmrCtr_Start(&TMRInst,0);
